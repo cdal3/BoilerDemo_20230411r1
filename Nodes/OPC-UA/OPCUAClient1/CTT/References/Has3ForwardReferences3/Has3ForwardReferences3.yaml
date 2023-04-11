@@ -1,0 +1,8 @@
+Name: ns=74;Has3ForwardReferences3
+Id: ns=74;s=Demo.CTT.References.Has3ForwardReferences3
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Has3ForwardReferences3"}
+Children:
+- File: ReferencedNode1/ReferencedNode1.yaml
+- File: ReferencedNode2/ReferencedNode2.yaml
+- File: ReferencedNode3/ReferencedNode3.yaml

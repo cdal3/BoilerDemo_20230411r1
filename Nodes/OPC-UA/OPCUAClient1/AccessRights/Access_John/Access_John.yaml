@@ -1,0 +1,47 @@
+Name: ns=74;Access_John
+Id: ns=74;s=Demo.AccessRights.Access_John
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Access_John"}
+Description: {"LocaleId":"","Text":"Contains elements with full access to attributes for user John."}
+ReferenceType: Organizes
+Children:
+- Name: ns=74;All_RO_John_RW
+  Id: ns=74;s=Demo.AccessRights.Access_John.All_RO_John_RW
+  Type: BaseDataVariableType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"All_RO_John_RW"}
+  Description: {"LocaleId":"","Text":"Read and Write access to value attribute for user John. Read only access for other users."}
+  ReferenceType: Organizes
+  Value: 0.0
+- Name: ns=74;All_WO_John_RW
+  Id: ns=74;s=Demo.AccessRights.Access_John.All_WO_John_RW
+  Type: BaseDataVariableType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"All_WO_John_RW"}
+  Description: {"LocaleId":"","Text":"Read and Write access to value attribute for user John. Write only access for other users."}
+  ReferenceType: Organizes
+  Value: 0.0
+- Name: ns=74;John_RO
+  Id: ns=74;s=Demo.AccessRights.Access_John.John_RO
+  Type: BaseDataVariableType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"John_RO"}
+  Description: {"LocaleId":"","Text":"Read only access to value attribute for user John. No access to value attribute for other users."}
+  ReferenceType: Organizes
+  Value: 0.0
+- Name: ns=74;John_RW
+  Id: ns=74;s=Demo.AccessRights.Access_John.John_RW
+  Type: BaseDataVariableType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"John_RW"}
+  Description: {"LocaleId":"","Text":"Read and Write access to value attribute for user John. No access to value attribute for other users."}
+  ReferenceType: Organizes
+  Value: 0.0
+- Name: ns=74;John_WO
+  Id: ns=74;s=Demo.AccessRights.Access_John.John_WO
+  Type: BaseDataVariableType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"John_WO"}
+  Description: {"LocaleId":"","Text":"Write only access to value attribute for user John. No access to value attribute for other users."}
+  ReferenceType: Organizes
+  Value: 0.0

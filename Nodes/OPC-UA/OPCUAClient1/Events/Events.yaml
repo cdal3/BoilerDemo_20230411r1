@@ -1,0 +1,69 @@
+Name: ns=74;Events
+Id: ns=74;s=Demo.Events
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"004_Events"}
+Description: {"LocaleId":"","Text":"In this folder you find objects which demonstrate OPC UA event features."}
+ReferenceType: Organizes
+Children:
+- Name: ns=74;Machine
+  Id: ns=74;i=5066
+  Type: MachineType
+  DisplayName: {"LocaleId":"","Text":"Machine"}
+  ReferenceType: Organizes
+  Children:
+  - Name: HeaterSwitch
+    Id: ns=74;i=6257
+    Type: BaseDataVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"","Text":"HeaterSwitch"}
+    Value: false
+  - Name: TemperatureSensor
+    Id: ns=74;i=5067
+    Type: TemperatureSensorType
+    DisplayName: {"LocaleId":"","Text":"TemperatureSensor"}
+    Children:
+    - Name: Temperature
+      Id: ns=74;i=6252
+      Type: AnalogItemType
+      DataType: Double
+      DisplayName: {"LocaleId":"","Text":"Temperature"}
+      Value: -10.0
+      Children:
+      - Name: EURange
+        Id: ns=74;i=6253
+        Type: RangeType
+        DataType: EURange
+        DisplayName: {"LocaleId":"","Text":"EURange"}
+        Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":100.0}}
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          OwnerId: ns=74;i=6253
+          ReferenceType: HasProperty
+          Value: 0.0
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          OwnerId: ns=74;i=6253
+          ReferenceType: HasProperty
+          Value: 100.0
+- Name: ns=74;SampleEventNotifier
+  Id: ns=74;i=5068
+  Type: BaseObjectType
+  DisplayName: {"LocaleId":"","Text":"SampleEventNotifier"}
+  ReferenceType: Organizes
+- Name: ns=74;Trigger_BaseEvent
+  Id: ns=74;i=6254
+  Type: BaseDataVariableType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"Trigger_BaseEvent"}
+  ReferenceType: Organizes
+  Value: false
+- Name: ns=74;Trigger_SampleEvent
+  Id: ns=74;i=6255
+  Type: BaseDataVariableType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"Trigger_SampleEvent"}
+  ReferenceType: Organizes
+  Value: false

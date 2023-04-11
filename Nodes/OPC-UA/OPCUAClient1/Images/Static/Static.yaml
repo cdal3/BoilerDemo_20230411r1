@@ -1,0 +1,5 @@
+Name: ns=74;Static
+Id: ns=74;s=Demo.Images.Static
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Static"}
+ReferenceType: Organizes

@@ -1,0 +1,182 @@
+Name: ns=74;MultiStateValueDiscreteType
+Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"MultiStateValueDiscreteType"}
+ReferenceType: Organizes
+Children:
+- Name: ns=74;Byte
+  Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.Byte
+  Type: MultiStateValueDiscreteType
+  DataType: Byte
+  DisplayName: {"LocaleId":"","Text":"Byte"}
+  ReferenceType: Organizes
+  Value: 10
+  Children:
+  - Name: EnumValues
+    Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.Byte.EnumValues
+    Type: PropertyType
+    DataType: EnumValueType
+    DisplayName: {"LocaleId":"","Text":"EnumValues"}
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":10,"DisplayName":{"LocaleId":"","Text":"Red"},"Description":{"LocaleId":"","Text":"A red value"}}},{"TypeId":{"Id":7594},"Body":{"Value":20,"DisplayName":{"LocaleId":"","Text":"Yellow"},"Description":{"LocaleId":"","Text":"A yellow value"}}},{"TypeId":{"Id":7594},"Body":{"Value":30,"DisplayName":{"LocaleId":"","Text":"Green"},"Description":{"LocaleId":"","Text":"A green value"}}},{"TypeId":{"Id":7594},"Body":{"Value":40,"DisplayName":{"LocaleId":"","Text":"Blue"},"Description":{"LocaleId":"","Text":"A blue value"}}},{"TypeId":{"Id":7594},"Body":{"Value":50,"DisplayName":{"LocaleId":"","Text":"Purple"},"Description":{"LocaleId":"","Text":"A purple value"}}}]
+  - Name: ValueAsText
+    Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.Byte.ValueAsText
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"ValueAsText"}
+    Value: {"LocaleId":"","Text":"Red"}
+- Name: ns=74;Int16
+  Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.Int16
+  Type: MultiStateValueDiscreteType
+  DataType: Int16
+  DisplayName: {"LocaleId":"","Text":"Int16"}
+  ReferenceType: Organizes
+  Value: 10
+  Children:
+  - Name: EnumValues
+    Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.Int16.EnumValues
+    Type: PropertyType
+    DataType: EnumValueType
+    DisplayName: {"LocaleId":"","Text":"EnumValues"}
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":10,"DisplayName":{"LocaleId":"","Text":"Red"},"Description":{"LocaleId":"","Text":"A red value"}}},{"TypeId":{"Id":7594},"Body":{"Value":20,"DisplayName":{"LocaleId":"","Text":"Yellow"},"Description":{"LocaleId":"","Text":"A yellow value"}}},{"TypeId":{"Id":7594},"Body":{"Value":30,"DisplayName":{"LocaleId":"","Text":"Green"},"Description":{"LocaleId":"","Text":"A green value"}}},{"TypeId":{"Id":7594},"Body":{"Value":40,"DisplayName":{"LocaleId":"","Text":"Blue"},"Description":{"LocaleId":"","Text":"A blue value"}}},{"TypeId":{"Id":7594},"Body":{"Value":50,"DisplayName":{"LocaleId":"","Text":"Purple"},"Description":{"LocaleId":"","Text":"A purple value"}}}]
+  - Name: ValueAsText
+    Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.Int16.ValueAsText
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"ValueAsText"}
+    Value: {"LocaleId":"","Text":"Red"}
+- Name: ns=74;Int32
+  Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.Int32
+  Type: MultiStateValueDiscreteType
+  DataType: Int32
+  DisplayName: {"LocaleId":"","Text":"Int32"}
+  ReferenceType: Organizes
+  Value: 10
+  Children:
+  - Name: EnumValues
+    Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.Int32.EnumValues
+    Type: PropertyType
+    DataType: EnumValueType
+    DisplayName: {"LocaleId":"","Text":"EnumValues"}
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":10,"DisplayName":{"LocaleId":"","Text":"Red"},"Description":{"LocaleId":"","Text":"A red value"}}},{"TypeId":{"Id":7594},"Body":{"Value":20,"DisplayName":{"LocaleId":"","Text":"Yellow"},"Description":{"LocaleId":"","Text":"A yellow value"}}},{"TypeId":{"Id":7594},"Body":{"Value":30,"DisplayName":{"LocaleId":"","Text":"Green"},"Description":{"LocaleId":"","Text":"A green value"}}},{"TypeId":{"Id":7594},"Body":{"Value":40,"DisplayName":{"LocaleId":"","Text":"Blue"},"Description":{"LocaleId":"","Text":"A blue value"}}},{"TypeId":{"Id":7594},"Body":{"Value":50,"DisplayName":{"LocaleId":"","Text":"Purple"},"Description":{"LocaleId":"","Text":"A purple value"}}}]
+  - Name: ValueAsText
+    Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.Int32.ValueAsText
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"ValueAsText"}
+    Value: {"LocaleId":"","Text":"Red"}
+- Name: ns=74;Int64
+  Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.Int64
+  Type: MultiStateValueDiscreteType
+  DataType: Int64
+  DisplayName: {"LocaleId":"","Text":"Int64"}
+  ReferenceType: Organizes
+  Value: 10
+  Children:
+  - Name: EnumValues
+    Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.Int64.EnumValues
+    Type: PropertyType
+    DataType: EnumValueType
+    DisplayName: {"LocaleId":"","Text":"EnumValues"}
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":10,"DisplayName":{"LocaleId":"","Text":"Red"},"Description":{"LocaleId":"","Text":"A red value"}}},{"TypeId":{"Id":7594},"Body":{"Value":20,"DisplayName":{"LocaleId":"","Text":"Yellow"},"Description":{"LocaleId":"","Text":"A yellow value"}}},{"TypeId":{"Id":7594},"Body":{"Value":30,"DisplayName":{"LocaleId":"","Text":"Green"},"Description":{"LocaleId":"","Text":"A green value"}}},{"TypeId":{"Id":7594},"Body":{"Value":40,"DisplayName":{"LocaleId":"","Text":"Blue"},"Description":{"LocaleId":"","Text":"A blue value"}}},{"TypeId":{"Id":7594},"Body":{"Value":50,"DisplayName":{"LocaleId":"","Text":"Purple"},"Description":{"LocaleId":"","Text":"A purple value"}}}]
+  - Name: ValueAsText
+    Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.Int64.ValueAsText
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"ValueAsText"}
+    Value: {"LocaleId":"","Text":"Red"}
+- Name: ns=74;SByte
+  Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.SByte
+  Type: MultiStateValueDiscreteType
+  DataType: SByte
+  DisplayName: {"LocaleId":"","Text":"SByte"}
+  ReferenceType: Organizes
+  Value: 10
+  Children:
+  - Name: EnumValues
+    Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.SByte.EnumValues
+    Type: PropertyType
+    DataType: EnumValueType
+    DisplayName: {"LocaleId":"","Text":"EnumValues"}
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":10,"DisplayName":{"LocaleId":"","Text":"Red"},"Description":{"LocaleId":"","Text":"A red value"}}},{"TypeId":{"Id":7594},"Body":{"Value":20,"DisplayName":{"LocaleId":"","Text":"Yellow"},"Description":{"LocaleId":"","Text":"A yellow value"}}},{"TypeId":{"Id":7594},"Body":{"Value":30,"DisplayName":{"LocaleId":"","Text":"Green"},"Description":{"LocaleId":"","Text":"A green value"}}},{"TypeId":{"Id":7594},"Body":{"Value":40,"DisplayName":{"LocaleId":"","Text":"Blue"},"Description":{"LocaleId":"","Text":"A blue value"}}},{"TypeId":{"Id":7594},"Body":{"Value":50,"DisplayName":{"LocaleId":"","Text":"Purple"},"Description":{"LocaleId":"","Text":"A purple value"}}}]
+  - Name: ValueAsText
+    Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.SByte.ValueAsText
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"ValueAsText"}
+    Value: {"LocaleId":"","Text":"Red"}
+- Name: ns=74;UInt16
+  Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.UInt16
+  Type: MultiStateValueDiscreteType
+  DataType: UInt16
+  DisplayName: {"LocaleId":"","Text":"UInt16"}
+  ReferenceType: Organizes
+  Value: 10
+  Children:
+  - Name: EnumValues
+    Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.UInt16.EnumValues
+    Type: PropertyType
+    DataType: EnumValueType
+    DisplayName: {"LocaleId":"","Text":"EnumValues"}
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":10,"DisplayName":{"LocaleId":"","Text":"Red"},"Description":{"LocaleId":"","Text":"A red value"}}},{"TypeId":{"Id":7594},"Body":{"Value":20,"DisplayName":{"LocaleId":"","Text":"Yellow"},"Description":{"LocaleId":"","Text":"A yellow value"}}},{"TypeId":{"Id":7594},"Body":{"Value":30,"DisplayName":{"LocaleId":"","Text":"Green"},"Description":{"LocaleId":"","Text":"A green value"}}},{"TypeId":{"Id":7594},"Body":{"Value":40,"DisplayName":{"LocaleId":"","Text":"Blue"},"Description":{"LocaleId":"","Text":"A blue value"}}},{"TypeId":{"Id":7594},"Body":{"Value":50,"DisplayName":{"LocaleId":"","Text":"Purple"},"Description":{"LocaleId":"","Text":"A purple value"}}}]
+  - Name: ValueAsText
+    Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.UInt16.ValueAsText
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"ValueAsText"}
+    Value: {"LocaleId":"","Text":"Red"}
+- Name: ns=74;UInt32
+  Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.UInt32
+  Type: MultiStateValueDiscreteType
+  DataType: UInt32
+  DisplayName: {"LocaleId":"","Text":"UInt32"}
+  ReferenceType: Organizes
+  Value: 10
+  Children:
+  - Name: EnumValues
+    Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.UInt32.EnumValues
+    Type: PropertyType
+    DataType: EnumValueType
+    DisplayName: {"LocaleId":"","Text":"EnumValues"}
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":10,"DisplayName":{"LocaleId":"","Text":"Red"},"Description":{"LocaleId":"","Text":"A red value"}}},{"TypeId":{"Id":7594},"Body":{"Value":20,"DisplayName":{"LocaleId":"","Text":"Yellow"},"Description":{"LocaleId":"","Text":"A yellow value"}}},{"TypeId":{"Id":7594},"Body":{"Value":30,"DisplayName":{"LocaleId":"","Text":"Green"},"Description":{"LocaleId":"","Text":"A green value"}}},{"TypeId":{"Id":7594},"Body":{"Value":40,"DisplayName":{"LocaleId":"","Text":"Blue"},"Description":{"LocaleId":"","Text":"A blue value"}}},{"TypeId":{"Id":7594},"Body":{"Value":50,"DisplayName":{"LocaleId":"","Text":"Purple"},"Description":{"LocaleId":"","Text":"A purple value"}}}]
+  - Name: ValueAsText
+    Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.UInt32.ValueAsText
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"ValueAsText"}
+    Value: {"LocaleId":"","Text":"Red"}
+- Name: ns=74;UInt64
+  Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.UInt64
+  Type: MultiStateValueDiscreteType
+  DataType: UInt64
+  DisplayName: {"LocaleId":"","Text":"UInt64"}
+  ReferenceType: Organizes
+  Value: 10
+  Children:
+  - Name: EnumValues
+    Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.UInt64.EnumValues
+    Type: PropertyType
+    DataType: EnumValueType
+    DisplayName: {"LocaleId":"","Text":"EnumValues"}
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":10,"DisplayName":{"LocaleId":"","Text":"Red"},"Description":{"LocaleId":"","Text":"A red value"}}},{"TypeId":{"Id":7594},"Body":{"Value":20,"DisplayName":{"LocaleId":"","Text":"Yellow"},"Description":{"LocaleId":"","Text":"A yellow value"}}},{"TypeId":{"Id":7594},"Body":{"Value":30,"DisplayName":{"LocaleId":"","Text":"Green"},"Description":{"LocaleId":"","Text":"A green value"}}},{"TypeId":{"Id":7594},"Body":{"Value":40,"DisplayName":{"LocaleId":"","Text":"Blue"},"Description":{"LocaleId":"","Text":"A blue value"}}},{"TypeId":{"Id":7594},"Body":{"Value":50,"DisplayName":{"LocaleId":"","Text":"Purple"},"Description":{"LocaleId":"","Text":"A purple value"}}}]
+  - Name: ValueAsText
+    Id: ns=74;s=Demo.CTT.DAProfile.MultiStateValueDiscreteType.UInt64.ValueAsText
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"ValueAsText"}
+    Value: {"LocaleId":"","Text":"Red"}

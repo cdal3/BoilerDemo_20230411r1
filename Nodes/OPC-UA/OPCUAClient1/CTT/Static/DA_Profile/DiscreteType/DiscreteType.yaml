@@ -1,0 +1,186 @@
+Name: ns=74;DiscreteType
+Id: ns=74;s=Demo.CTT.DAProfile.DiscreteType
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"DiscreteType"}
+ReferenceType: Organizes
+Children:
+- Name: ns=74;MultiStateDiscrete1
+  Id: ns=74;s=Demo.CTT.DAProfile.DiscreteType.MultiStateDiscrete1
+  Type: MultiStateDiscreteType
+  DataType: UInt16
+  DisplayName: {"LocaleId":"","Text":"MultiStateDiscrete1"}
+  ReferenceType: Organizes
+  Value: 0
+  Children:
+  - Name: EnumStrings
+    Id: ns=74;i=6124
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"EnumStrings"}
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [{"LocaleId":"","Text":"Red"},{"LocaleId":"","Text":"Green"},{"LocaleId":"","Text":"Blue"},{"LocaleId":"","Text":"Purple"},{"LocaleId":"","Text":"Yellow"}]
+- Name: ns=74;MultiStateDiscrete2
+  Id: ns=74;s=Demo.CTT.DAProfile.DiscreteType.MultiStateDiscrete2
+  Type: MultiStateDiscreteType
+  DataType: UInt16
+  DisplayName: {"LocaleId":"","Text":"MultiStateDiscrete2"}
+  ReferenceType: Organizes
+  Value: 1
+  Children:
+  - Name: EnumStrings
+    Id: ns=74;i=6126
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"EnumStrings"}
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [{"LocaleId":"","Text":"One"},{"LocaleId":"","Text":"Two"},{"LocaleId":"","Text":"Three"},{"LocaleId":"","Text":"Four"},{"LocaleId":"","Text":"Five"}]
+- Name: ns=74;MultiStateDiscrete3
+  Id: ns=74;s=Demo.CTT.DAProfile.DiscreteType.MultiStateDiscrete3
+  Type: MultiStateDiscreteType
+  DataType: UInt16
+  DisplayName: {"LocaleId":"","Text":"MultiStateDiscrete3"}
+  ReferenceType: Organizes
+  Value: 2
+  Children:
+  - Name: EnumStrings
+    Id: ns=74;i=6128
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"EnumStrings"}
+    ValueRank: OneDimension
+    ArrayDimensions: [3]
+    Value: [{"LocaleId":"","Text":"TestDiscreteState11"},{"LocaleId":"","Text":"TestDiscreteState12"},{"LocaleId":"","Text":"TestDiscreteState13"}]
+- Name: ns=74;MultiStateDiscrete4
+  Id: ns=74;s=Demo.CTT.DAProfile.DiscreteType.MultiStateDiscrete4
+  Type: MultiStateDiscreteType
+  DataType: UInt32
+  DisplayName: {"LocaleId":"","Text":"MultiStateDiscrete4"}
+  ReferenceType: Organizes
+  Value: 0
+  Children:
+  - Name: EnumStrings
+    Id: ns=74;i=6130
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"EnumStrings"}
+    ValueRank: OneDimension
+    ArrayDimensions: [3]
+    Value: [{"LocaleId":"","Text":"TestDiscreteState21"},{"LocaleId":"","Text":"TestDiscreteState22"},{"LocaleId":"","Text":"TestDiscreteState23"}]
+- Name: ns=74;MultiStateDiscrete5
+  Id: ns=74;s=Demo.CTT.DAProfile.DiscreteType.MultiStateDiscrete5
+  Type: MultiStateDiscreteType
+  DataType: UInt32
+  DisplayName: {"LocaleId":"","Text":"MultiStateDiscrete5"}
+  ReferenceType: Organizes
+  Value: 1
+  Children:
+  - Name: EnumStrings
+    Id: ns=74;i=6132
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"EnumStrings"}
+    ValueRank: OneDimension
+    ArrayDimensions: [3]
+    Value: [{"LocaleId":"","Text":"TestDiscreteState31"},{"LocaleId":"","Text":"TestDiscreteState32"},{"LocaleId":"","Text":"TestDiscreteState33"}]
+- Name: ns=74;TwoStateDiscrete1
+  Id: ns=74;s=Demo.CTT.DAProfile.DiscreteType.TwoStateDiscrete1
+  Type: TwoStateDiscreteType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"TwoStateDiscrete1"}
+  ReferenceType: Organizes
+  Value: false
+  Children:
+  - Name: FalseState
+    Id: ns=74;i=6134
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"FalseState"}
+    Value: {"LocaleId":"","Text":"Stopped"}
+  - Name: TrueState
+    Id: ns=74;i=6135
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"TrueState"}
+    Value: {"LocaleId":"","Text":"Started"}
+- Name: ns=74;TwoStateDiscrete2
+  Id: ns=74;s=Demo.CTT.DAProfile.DiscreteType.TwoStateDiscrete2
+  Type: TwoStateDiscreteType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"TwoStateDiscrete2"}
+  ReferenceType: Organizes
+  Value: false
+  Children:
+  - Name: FalseState
+    Id: ns=74;i=6137
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"FalseState"}
+    Value: {"LocaleId":"","Text":"Red"}
+  - Name: TrueState
+    Id: ns=74;i=6138
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"TrueState"}
+    Value: {"LocaleId":"","Text":"Green"}
+- Name: ns=74;TwoStateDiscrete3
+  Id: ns=74;s=Demo.CTT.DAProfile.DiscreteType.TwoStateDiscrete3
+  Type: TwoStateDiscreteType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"TwoStateDiscrete3"}
+  ReferenceType: Organizes
+  Value: false
+  Children:
+  - Name: FalseState
+    Id: ns=74;i=6140
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"FalseState"}
+    Value: {"LocaleId":"","Text":"TestFalseState1"}
+  - Name: TrueState
+    Id: ns=74;i=6141
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"TrueState"}
+    Value: {"LocaleId":"","Text":"TestTrueState1"}
+- Name: ns=74;TwoStateDiscrete4
+  Id: ns=74;s=Demo.CTT.DAProfile.DiscreteType.TwoStateDiscrete4
+  Type: TwoStateDiscreteType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"TwoStateDiscrete4"}
+  ReferenceType: Organizes
+  Value: false
+  Children:
+  - Name: FalseState
+    Id: ns=74;i=6143
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"FalseState"}
+    Value: {"LocaleId":"","Text":"TestFalseState2"}
+  - Name: TrueState
+    Id: ns=74;i=6144
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"TrueState"}
+    Value: {"LocaleId":"","Text":"TestTrueState2"}
+- Name: ns=74;TwoStateDiscrete5
+  Id: ns=74;s=Demo.CTT.DAProfile.DiscreteType.TwoStateDiscrete5
+  Type: TwoStateDiscreteType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"TwoStateDiscrete5"}
+  ReferenceType: Organizes
+  Value: false
+  Children:
+  - Name: FalseState
+    Id: ns=74;i=6146
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"FalseState"}
+    Value: {"LocaleId":"","Text":"TestFalseState3"}
+  - Name: TrueState
+    Id: ns=74;i=6147
+    Type: PropertyType
+    DataType: LocalizedText
+    DisplayName: {"LocaleId":"","Text":"TrueState"}
+    Value: {"LocaleId":"","Text":"TestTrueState3"}

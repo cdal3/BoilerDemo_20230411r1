@@ -1,0 +1,6 @@
+Name: ns=74;ReferencedNode1
+Id: ns=74;i=5056
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"ReferencedNode1"}
+Children:
+- File: Has3InverseReferences/Has3InverseReferences.yaml

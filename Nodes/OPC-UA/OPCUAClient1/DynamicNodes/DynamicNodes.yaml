@@ -1,0 +1,21 @@
+Name: ns=74;DynamicNodes
+Id: ns=74;s=Demo.DynamicNodes
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"008_DynamicNodes"}
+Description: {"LocaleId":"","Text":"This folder demonstrates creating nodes dynamically and sending ModelChangeEvents."}
+ReferenceType: Organizes
+Children:
+- Class: Method
+  Name: ns=74;CreateDynamicNode
+  Id: ns=74;s=Demo.DynamicNodes.CreateDynamicNode
+  DisplayName: {"LocaleId":"","Text":"CreateDynamicNode"}
+- Class: Method
+  Name: ns=74;DeleteDynamicNode
+  Id: ns=74;s=Demo.DynamicNodes.DeleteDynamicNode
+  DisplayName: {"LocaleId":"","Text":"DeleteDynamicNode"}
+- Name: ns=0;NodeVersion
+  Id: ns=74;i=6031
+  Type: PropertyType
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"NodeVersion"}
+  Value: ""

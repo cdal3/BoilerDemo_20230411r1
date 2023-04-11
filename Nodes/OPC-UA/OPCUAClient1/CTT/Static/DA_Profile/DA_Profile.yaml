@@ -1,0 +1,11 @@
+Name: ns=74;DA_Profile
+Id: ns=74;s=Demo.CTT.Static.DAProfile
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"DA Profile"}
+ReferenceType: Organizes
+Children:
+- File: AnalogType/AnalogType.yaml
+- File: AnalogType_Arrays/AnalogType_Arrays.yaml
+- File: DataItem/DataItem.yaml
+- File: DiscreteType/DiscreteType.yaml
+- File: MultiStateValueDiscreteType/MultiStateValueDiscreteType.yaml

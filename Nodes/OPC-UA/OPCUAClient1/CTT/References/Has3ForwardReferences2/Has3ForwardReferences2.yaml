@@ -1,0 +1,30 @@
+Name: ns=74;Has3ForwardReferences2
+Id: ns=74;s=Demo.CTT.References.Has3ForwardReferences2
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Has3ForwardReferences2"}
+Children:
+- Name: ns=74;BaseDataVariable
+  Id: ns=74;i=6234
+  Type: BaseDataVariableType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"BaseDataVariable"}
+  Value: 0.0
+- Class: Method
+  Name: ns=74;Method1
+  Id: ns=74;i=7010
+  DisplayName: {"LocaleId":"","Text":"Method1"}
+- Class: Method
+  Name: ns=74;Method2
+  Id: ns=74;i=7011
+  DisplayName: {"LocaleId":"","Text":"Method2"}
+- Class: Method
+  Name: ns=74;Method3
+  Id: ns=74;i=7012
+  DisplayName: {"LocaleId":"","Text":"Method3"}
+- File: Object/Object.yaml
+- Name: ns=74;Property
+  Id: ns=74;i=6235
+  Type: PropertyType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"Property"}
+  Value: 0.0

@@ -1,0 +1,8 @@
+Name: ns=74;Static
+Id: ns=74;s=Demo.CTT.Static
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Static"}
+ReferenceType: Organizes
+Children:
+- File: All_Profiles/All_Profiles.yaml
+- File: DA_Profile/DA_Profile.yaml

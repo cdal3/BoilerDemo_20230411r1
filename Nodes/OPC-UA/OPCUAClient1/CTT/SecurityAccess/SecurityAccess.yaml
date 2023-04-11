@@ -1,0 +1,48 @@
+Name: ns=74;SecurityAccess
+Id: ns=74;s=Demo.CTT.SecurityAccess
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"SecurityAccess"}
+ReferenceType: Organizes
+Children:
+- Name: ns=74;AccessLevel_CurrentRead
+  Id: ns=74;s=Demo.CTT.SecurityAccess.AccessLevel_CurrentRead
+  Type: BaseDataVariableType
+  DataType: Int16
+  DisplayName: {"LocaleId":"","Text":"AccessLevel_CurrentRead"}
+  Description: {"LocaleId":"","Text":"A Node whose AccessLevel attribute contains 'CurrentRead'. The UserAccessLevel should match the AccessLevel so that it is not more restrictive."}
+  Value: 0
+- Name: ns=74;AccessLevel_CurrentRead_NotCurrentWrite
+  Id: ns=74;s=Demo.CTT.SecurityAccess.AccessLevel_CurrentRead_NotCurrentWrite
+  Type: BaseDataVariableType
+  DataType: Int16
+  DisplayName: {"LocaleId":"","Text":"AccessLevel_CurrentRead_NotCurrentWrite"}
+  Description: {"LocaleId":"","Text":"A Node whose UserAccessLevel contains 'CurrentRead', but explicitly does not include 'CurrentWrite'."}
+  Value: 0
+- Name: ns=74;AccessLevel_CurrentRead_NotUser
+  Id: ns=74;s=Demo.CTT.SecurityAccess.AccessLevel_CurrentRead_NotUser
+  Type: BaseDataVariableType
+  DataType: Int16
+  DisplayName: {"LocaleId":"","Text":"AccessLevel_CurrentRead_NotUser"}
+  Description: {"LocaleId":"","Text":"A Node whose AccessLevel attribute contains 'CurrentRead' but the UserAccessLevel does not contain 'CurrentRead'."}
+  Value: 0
+- Name: ns=74;AccessLevel_CurrentWrite
+  Id: ns=74;s=Demo.CTT.SecurityAccess.AccessLevel_CurrentWrite
+  Type: BaseDataVariableType
+  DataType: Int16
+  DisplayName: {"LocaleId":"","Text":"AccessLevel_CurrentWrite"}
+  Description: {"LocaleId":"","Text":"A Node whose AccessLevel attribute contains 'CurrentWrite'. The UserAccessLevel should match the AccessLevel so that it is not more restrictive."}
+  Value: 0
+- Name: ns=74;AccessLevel_CurrentWrite_NotCurrentRead
+  Id: ns=74;s=Demo.CTT.SecurityAccess.AccessLevel_CurrentWrite_NotCurrentRead
+  Type: BaseDataVariableType
+  DataType: Int16
+  DisplayName: {"LocaleId":"","Text":"AccessLevel_CurrentWrite_NotCurrentRead"}
+  Description: {"LocaleId":"","Text":"A Node whose UserAccessLevel contains 'CurrentWrite', but explicitly does not include 'CurrentRead'."}
+  Value: 0
+- Name: ns=74;AccessLevel_CurrentWrite_NotUser
+  Id: ns=74;s=Demo.CTT.SecurityAccess.AccessLevel_CurrentWrite_NotUser
+  Type: BaseDataVariableType
+  DataType: Int16
+  DisplayName: {"LocaleId":"","Text":"AccessLevel_CurrentWrite_NotUser"}
+  Description: {"LocaleId":"","Text":"A Node whose AccessLevel attribute contains 'CurrentWrite' but the UserAccessLevel does not contain 'CurrentWrite'"}
+  Value: 0

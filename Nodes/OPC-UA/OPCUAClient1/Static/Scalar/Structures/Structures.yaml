@@ -1,0 +1,48 @@
+Name: ns=74;Structures
+Id: ns=74;s=Demo.Static.Scalar.Structures
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Structures"}
+ReferenceType: Organizes
+Children:
+- Name: ns=74;OptionalFields
+  Id: ns=74;s=Demo.Static.Scalar.OptionalFields
+  Type: BaseDataVariableType
+  DataType: StructureWithOptionalFields
+  DisplayName: {"LocaleId":"","Text":"OptionalFields"}
+  ReferenceType: Organizes
+  Value: {"TypeId":{"Id":22}}
+- Name: ns=74;OptionSet
+  Id: ns=74;s=Demo.Static.Scalar.OptionSet
+  Type: BaseDataVariableType
+  DataType: AccessRights
+  DisplayName: {"LocaleId":"","Text":"OptionSet"}
+  ReferenceType: Organizes
+  Value: {"TypeId":{"Id":22}}
+- Name: ns=74;Structure
+  Id: ns=74;s=Demo.Static.Scalar.Structure
+  Type: BaseDataVariableType
+  DataType: Structure
+  DisplayName: {"LocaleId":"","Text":"Structure"}
+  ReferenceType: Organizes
+  Value: {"Type":22,"Body":{"TypeId":{"Id":12079},"Body":{"engineeringUnits":{"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},"eURange":{"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}},"title":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"axisScaleType":0,"axisSteps":[]}}}
+- Name: ns=74;Union
+  Id: ns=74;s=Demo.Static.Scalar.Union
+  Type: BaseDataVariableType
+  DataType: UnionTest
+  DisplayName: {"LocaleId":"","Text":"Union"}
+  ReferenceType: Organizes
+  Value: {"TypeId":{"Id":22}}
+- Name: ns=74;Vector
+  Id: ns=74;s=Demo.Static.Scalar.Vector
+  Type: BaseDataVariableType
+  DataType: Vector
+  DisplayName: {"LocaleId":"","Text":"Vector"}
+  ReferenceType: Organizes
+  Value: {"TypeId":{"Id":22}}
+- Name: ns=74;WorkOrder
+  Id: ns=74;s=Demo.Static.Scalar.WorkOrder
+  Type: BaseDataVariableType
+  DataType: WorkOrderType
+  DisplayName: {"LocaleId":"","Text":"WorkOrder"}
+  ReferenceType: Organizes
+  Value: {"TypeId":{"Id":22}}

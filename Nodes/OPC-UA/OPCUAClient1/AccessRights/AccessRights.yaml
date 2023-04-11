@@ -1,0 +1,11 @@
+Name: ns=74;AccessRights
+Id: ns=74;s=Demo.AccessRights
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"005_AccessRights"}
+Description: {"LocaleId":"","Text":"This folder contains variables with different access rights to demonstrates user authorization."}
+ReferenceType: Organizes
+Children:
+- File: Access_All/Access_All.yaml
+- File: Access_John/Access_John.yaml
+- File: Access_Operators/Access_Operators.yaml
+- File: Browse_All/Browse_All.yaml

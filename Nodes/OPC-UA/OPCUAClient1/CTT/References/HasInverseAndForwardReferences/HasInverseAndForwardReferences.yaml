@@ -1,0 +1,11 @@
+Name: ns=74;HasInverseAndForwardReferences
+Id: ns=74;s=Demo.CTT.References.HasInverseAndForwardReferences
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"HasInverseAndForwardReferences"}
+Children:
+- Name: ns=74;ReferencedNode
+  Id: ns=74;i=6230
+  Type: BaseDataVariableType
+  DataType: UInt32
+  DisplayName: {"LocaleId":"","Text":"ReferencedNode"}
+  Value: 0

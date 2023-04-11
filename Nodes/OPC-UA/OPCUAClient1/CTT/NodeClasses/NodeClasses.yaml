@@ -1,0 +1,20 @@
+Name: ns=74;NodeClasses
+Id: ns=74;s=Demo.CTT.NodeClasses
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"NodeClasses"}
+ReferenceType: Organizes
+Children:
+- Class: Method
+  Name: ns=74;Method
+  Id: ns=74;s=Demo.CTT.NodeClasses.Method
+  DisplayName: {"LocaleId":"","Text":"Method"}
+- Name: ns=74;Object
+  Id: ns=74;s=Demo.CTT.NodeClasses.Object
+  Type: BaseObjectType
+  DisplayName: {"LocaleId":"","Text":"Object"}
+- Name: ns=74;Variable
+  Id: ns=74;s=Demo.CTT.NodeClasses.Variable
+  Type: BaseDataVariableType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"Variable"}
+  Value: 0.0

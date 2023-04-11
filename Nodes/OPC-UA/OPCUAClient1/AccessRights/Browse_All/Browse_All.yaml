@@ -1,0 +1,6 @@
+Name: ns=74;Browse_All
+Id: ns=74;s=Demo.AccessRights.Browse_All
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Browse_All"}
+Description: {"LocaleId":"","Text":"Browse access for all users."}
+ReferenceType: Organizes

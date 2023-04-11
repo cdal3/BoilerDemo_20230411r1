@@ -1,0 +1,33 @@
+Name: ns=74;Methods
+Id: ns=74;s=Demo.CTT.Methods
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Methods"}
+ReferenceType: Organizes
+Children:
+- Class: Method
+  Name: ns=74;MethodIO
+  Id: ns=74;s=Demo.CTT.Methods.MethodIO
+  DisplayName: {"LocaleId":"","Text":"MethodIO"}
+  Description: {"LocaleId":"","Text":"Adds 2 unsigned integers. This method is added for compliance testing only."}
+  Children:
+  - Name: ns=0;InputArguments
+    Id: ns=74;s=Demo.CTT.Methods.MethodIO.InputArguments
+    Type: PropertyType
+    DataType: Argument
+    DisplayName: {"LocaleId":"","Text":"InputArguments"}
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [{"TypeId":{"Id":296},"Body":{"Name":"Summand1","DataType":{"Id":7},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"Summand2","DataType":{"Id":7},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Name: ns=0;OutputArguments
+    Id: ns=74;s=Demo.CTT.Methods.MethodIO.OutputArguments
+    Type: PropertyType
+    DataType: Argument
+    DisplayName: {"LocaleId":"","Text":"OutputArguments"}
+    ValueRank: OneDimension
+    ArrayDimensions: [1]
+    Value: [{"TypeId":{"Id":296},"Body":{"Name":"Sum","DataType":{"Id":7},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+- Class: Method
+  Name: ns=74;MethodNoArgs
+  Id: ns=74;s=Demo.Method.MethodNoArgs
+  DisplayName: {"LocaleId":"","Text":"MethodNoArgs"}
+  Description: {"LocaleId":"","Text":"Method without Arguments and without any functionality. This method is added for compliance testing only."}

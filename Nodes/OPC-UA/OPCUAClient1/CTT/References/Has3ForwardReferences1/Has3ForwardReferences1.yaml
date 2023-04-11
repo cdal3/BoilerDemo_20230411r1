@@ -1,0 +1,23 @@
+Name: ns=74;Has3ForwardReferences1
+Id: ns=74;s=Demo.CTT.References.Has3ForwardReferences1
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Has3ForwardReferences1"}
+Children:
+- Name: ns=74;ReferencedNode1
+  Id: ns=74;i=6223
+  Type: BaseDataVariableType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"ReferencedNode1"}
+  Value: 0.0
+- Name: ns=74;ReferencedNode2
+  Id: ns=74;i=6224
+  Type: BaseDataVariableType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"ReferencedNode2"}
+  Value: 0.0
+- Name: ns=74;ReferencedNode3
+  Id: ns=74;i=6225
+  Type: BaseDataVariableType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"ReferencedNode3"}
+  Value: 0.0

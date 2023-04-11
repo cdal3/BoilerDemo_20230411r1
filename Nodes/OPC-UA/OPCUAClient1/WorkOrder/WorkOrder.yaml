@@ -1,0 +1,71 @@
+Name: ns=74;WorkOrder
+Id: ns=74;s=Demo.WorkOrder
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"015_WorkOrder"}
+Description: {"LocaleId":"","Text":"This folder contains instances of WorkOrdervariableType. The Values of the instance root node and its children are consistent."}
+ReferenceType: Organizes
+Children:
+- Name: ns=74;WorkOrderVariable
+  Id: ns=74;s=Demo.WorkOrder.WorkOrderVariable
+  Type: WorkOrderVariableType
+  DataType: WorkOrderType
+  DisplayName: {"LocaleId":"","Text":"WorkOrderVariable"}
+  Value: {"TypeId":{"Id":22}}
+  Children:
+  - Name: AssetID
+    Id: ns=74;s=Demo.WorkOrder.WorkOrderVariable.AssetID
+    Type: BaseDataVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"","Text":"AssetID"}
+    Value: ""
+  - Name: ID
+    Id: ns=74;s=Demo.WorkOrder.WorkOrderVariable.ID
+    Type: BaseDataVariableType
+    DataType: Guid
+    DisplayName: {"LocaleId":"","Text":"ID"}
+    Value: "00000000000000000000000000000000"
+  - Name: StartTime
+    Id: ns=74;s=Demo.WorkOrder.WorkOrderVariable.StartTime
+    Type: BaseDataVariableType
+    DataType: DateTime
+    DisplayName: {"LocaleId":"","Text":"StartTime"}
+    Value: "1601-01-01T00:00:00.0000000"
+  - Name: StatusComments
+    Id: ns=74;s=Demo.WorkOrder.WorkOrderVariable.StatusComments
+    Type: BaseDataVariableType
+    DataType: WorkOrderStatusType
+    DisplayName: {"LocaleId":"","Text":"StatusComments"}
+    ValueRank: Any
+    Value: []
+- Name: ns=74;WorkOrderVariable2
+  Id: ns=74;s=Demo.WorkOrder.WorkOrderVariable2
+  Type: WorkOrderVariableType
+  DataType: WorkOrderType
+  DisplayName: {"LocaleId":"","Text":"WorkOrderVariable2"}
+  Value: {"TypeId":{"Id":22}}
+  Children:
+  - Name: AssetID
+    Id: ns=74;s=Demo.WorkOrder.WorkOrderVariable2.AssetID
+    Type: BaseDataVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"","Text":"AssetID"}
+    Value: ""
+  - Name: ID
+    Id: ns=74;s=Demo.WorkOrder.WorkOrderVariable2.ID
+    Type: BaseDataVariableType
+    DataType: Guid
+    DisplayName: {"LocaleId":"","Text":"ID"}
+    Value: "00000000000000000000000000000000"
+  - Name: StartTime
+    Id: ns=74;s=Demo.WorkOrder.WorkOrderVariable2.StartTime
+    Type: BaseDataVariableType
+    DataType: DateTime
+    DisplayName: {"LocaleId":"","Text":"StartTime"}
+    Value: "1601-01-01T00:00:00.0000000"
+  - Name: StatusComments
+    Id: ns=74;s=Demo.WorkOrder.WorkOrderVariable2.StatusComments
+    Type: BaseDataVariableType
+    DataType: WorkOrderStatusType
+    DisplayName: {"LocaleId":"","Text":"StatusComments"}
+    ValueRank: Any
+    Value: []

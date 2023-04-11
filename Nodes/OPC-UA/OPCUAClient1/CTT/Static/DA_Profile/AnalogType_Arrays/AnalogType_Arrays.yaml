@@ -1,0 +1,60 @@
+Name: ns=74;AnalogType_Arrays
+Id: ns=74;s=Demo.CTT.DAProfile.AnalogTypeArrays
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"AnalogType Arrays"}
+ReferenceType: Organizes
+Children:
+- Name: ns=74;Double
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogTypeArrays.Double
+  Type: AnalogItemType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"Double"}
+  ReferenceType: Organizes
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+- Name: ns=74;Float
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogTypeArrays.Float
+  Type: AnalogItemType
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"Float"}
+  ReferenceType: Organizes
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+- Name: ns=74;Int16
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogTypeArrays.Int16
+  Type: AnalogItemType
+  DataType: Int16
+  DisplayName: {"LocaleId":"","Text":"Int16"}
+  ReferenceType: Organizes
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Value: [0,0,0,0,0,0,0,0,0,0]
+- Name: ns=74;Int32
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogTypeArrays.Int32
+  Type: AnalogItemType
+  DataType: Int32
+  DisplayName: {"LocaleId":"","Text":"Int32"}
+  ReferenceType: Organizes
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Value: [0,0,0,0,0,0,0,0,0,0]
+- Name: ns=74;UInt16
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogTypeArrays.UInt16
+  Type: AnalogItemType
+  DataType: UInt16
+  DisplayName: {"LocaleId":"","Text":"UInt16"}
+  ReferenceType: Organizes
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Value: [0,0,0,0,0,0,0,0,0,0]
+- Name: ns=74;UInt32
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogTypeArrays.UInt32
+  Type: AnalogItemType
+  DataType: UInt32
+  DisplayName: {"LocaleId":"","Text":"UInt32"}
+  ReferenceType: Organizes
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Value: [0,0,0,0,0,0,0,0,0,0]

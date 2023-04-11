@@ -1,0 +1,6 @@
+Name: ns=74;folder6
+Id: ns=74;s=Demo.CTT.Paths.folder1.folder2.folder3.folder4.folder5.folder6
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"folder6"}
+Children:
+- File: folder7/folder7.yaml

@@ -1,0 +1,231 @@
+Name: DataStores
+Type: DataStoresCategoryFolder
+Children:
+- Name: EmbeddedDatabase
+  Id: g=b64b1a3c83f8b66c8afbfccb5cec04d9
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: DataLogger
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=60;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=60;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=60;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=60;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Boiler level
+          Type: StoreColumn
+          DataType: Double
+          Value: 0.0
+        - Name: Boiler temp
+          Type: StoreColumn
+          DataType: Double
+          Value: 0.0
+        - Name: Tank 2 level
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Tank 1 level
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+    - Name: AlarmsEventLogger
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=60;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=60;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=60;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=60;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: ActiveState_Id
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: AckedState_Id
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: ConfirmedState_Id
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: ConditionName
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: EnabledState_Id
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: SourceName
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Time
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: 'Message_en-US'
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: 'Message_it-IT'
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Severity
+          Type: StoreColumn
+          DataType: UInt16
+          Value: 0
+        - Name: LocalTime
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+    - Name: RecipesAudit
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=60;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=60;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=60;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=60;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: RecipeName
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Action
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+    - Name: RecipeSchema
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=60;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=60;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=60;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=60;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: /BoilerLevelSetpoint
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: /BoilerTempSetpoint
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+  - Class: Reference
+    Target: ns=62;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=62;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=60;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=60;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=60;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=60;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=60;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=60;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=60;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=60;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=60;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=60;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=60;i=59
+    Direction: Forward

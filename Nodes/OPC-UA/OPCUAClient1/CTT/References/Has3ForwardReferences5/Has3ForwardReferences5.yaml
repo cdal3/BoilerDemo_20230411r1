@@ -1,0 +1,16 @@
+Name: ns=74;Has3ForwardReferences5
+Id: ns=74;s=Demo.CTT.References.Has3ForwardReferences5
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Has3ForwardReferences5"}
+Children:
+- File: ReferencedNode1/ReferencedNode1.yaml
+- Name: ns=74;ReferencedNode2
+  Id: ns=74;i=6229
+  Type: PropertyType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"ReferencedNode2"}
+  Value: 0.0
+- Class: Method
+  Name: ns=74;ReferencedNode3
+  Id: ns=74;i=7013
+  DisplayName: {"LocaleId":"","Text":"ReferencedNode3"}

@@ -1,0 +1,122 @@
+Name: Recipes
+Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchema
+  Id: g=21cc33b08070fdf105c085f939188c50
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: BoilerLevelSetpoint
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: BoilerTempSetpoint
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+  - Class: Reference
+    Target: ns=52;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"b64b1a3c83f8b66c8afbfccb5cec04d9","Namespace":71}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":60}
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"d3b4a10b5eff7364d74782c172a65b8e","Namespace":71}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EditModel
+    Id: g=e75a581c78bcfb3bf5d1f26f14b1514f
+    Type: BaseObjectType
+    Children:
+    - Name: BoilerLevelSetpoint
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: BoilerTempSetpoint
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+- Name: RecipeSchema1
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=52;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=52;i=60
+    Direction: Forward

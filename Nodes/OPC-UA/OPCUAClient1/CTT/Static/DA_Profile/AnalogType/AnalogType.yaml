@@ -1,0 +1,374 @@
+Name: ns=74;AnalogType
+Id: ns=74;s=Demo.CTT.DAProfile.AnalogType
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"AnalogType"}
+ReferenceType: Organizes
+Children:
+- Name: ns=74;Byte
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogType.Byte
+  Type: AnalogItemType
+  DataType: Byte
+  DisplayName: {"LocaleId":"","Text":"Byte"}
+  ReferenceType: Organizes
+  Value: 0
+  Children:
+  - Name: EURange
+    Id: ns=74;i=6102
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":50.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6102
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6102
+      ReferenceType: HasProperty
+      Value: 50.0
+- Name: ns=74;Double
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogType.Double
+  Type: AnalogItemType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"Double"}
+  ReferenceType: Organizes
+  Value: 0.0
+  Children:
+  - Name: EURange
+    Id: ns=74;i=6086
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":50.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6086
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6086
+      ReferenceType: HasProperty
+      Value: 50.0
+- Name: ns=74;Float
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogType.Float
+  Type: AnalogItemType
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"Float"}
+  ReferenceType: Organizes
+  Value: 0.0
+  Children:
+  - Name: EURange
+    Id: ns=74;i=6088
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":50.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6088
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6088
+      ReferenceType: HasProperty
+      Value: 50.0
+- Name: ns=74;Int16
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogType.Int16
+  Type: AnalogItemType
+  DataType: Int16
+  DisplayName: {"LocaleId":"","Text":"Int16"}
+  ReferenceType: Organizes
+  Value: 0
+  Children:
+  - Name: EURange
+    Id: ns=74;i=6090
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":50.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6090
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6090
+      ReferenceType: HasProperty
+      Value: 50.0
+- Name: ns=74;Int32
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogType.Int32
+  Type: AnalogItemType
+  DataType: Int32
+  DisplayName: {"LocaleId":"","Text":"Int32"}
+  ReferenceType: Organizes
+  Value: 0
+  Children:
+  - Name: EURange
+    Id: ns=74;i=6094
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":50.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6094
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6094
+      ReferenceType: HasProperty
+      Value: 50.0
+- Name: ns=74;Int64
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogType.Int64
+  Type: AnalogItemType
+  DataType: Int64
+  DisplayName: {"LocaleId":"","Text":"Int64"}
+  ReferenceType: Organizes
+  Value: 0
+  Children:
+  - Name: EURange
+    Id: ns=74;i=6098
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":50.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6098
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6098
+      ReferenceType: HasProperty
+      Value: 50.0
+- Name: ns=74;SByte
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogType.SByte
+  Type: AnalogItemType
+  DataType: SByte
+  DisplayName: {"LocaleId":"","Text":"SByte"}
+  ReferenceType: Organizes
+  Value: 0
+  Children:
+  - Name: EURange
+    Id: ns=74;i=6104
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":50.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6104
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6104
+      ReferenceType: HasProperty
+      Value: 50.0
+- Name: ns=74;UInt16
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogType.UInt16
+  Type: AnalogItemType
+  DataType: UInt16
+  DisplayName: {"LocaleId":"","Text":"UInt16"}
+  ReferenceType: Organizes
+  Value: 0
+  Children:
+  - Name: EURange
+    Id: ns=74;i=6092
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":50.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6092
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6092
+      ReferenceType: HasProperty
+      Value: 50.0
+- Name: ns=74;UInt32
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogType.UInt32
+  Type: AnalogItemType
+  DataType: UInt32
+  DisplayName: {"LocaleId":"","Text":"UInt32"}
+  ReferenceType: Organizes
+  Value: 0
+  Children:
+  - Name: EURange
+    Id: ns=74;i=6096
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":50.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6096
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6096
+      ReferenceType: HasProperty
+      Value: 50.0
+- Name: ns=74;UInt64
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogType.UInt64
+  Type: AnalogItemType
+  DataType: UInt64
+  DisplayName: {"LocaleId":"","Text":"UInt64"}
+  ReferenceType: Organizes
+  Value: 0
+  Children:
+  - Name: EURange
+    Id: ns=74;i=6100
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":50.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6100
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6100
+      ReferenceType: HasProperty
+      Value: 50.0
+- Name: ns=74;VariableWithEngineeringUnits
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogType.VariableWithEngineeringUnits
+  Type: AnalogItemType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"VariableWithEngineeringUnits"}
+  ReferenceType: Organizes
+  Value: 0.0
+  Children:
+  - Name: EngineeringUnits
+    Id: ns=74;i=6109
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://www.opcfoundation.org/UA/units/un/cefact","unitId":4408652,"displayName":{"LocaleId":"","Text":"°C"},"description":{"LocaleId":"","Text":"degree Celsius"}}}
+    Children:
+    - Name: UnitId
+      Type: BaseVariableType
+      DataType: Int32
+      OwnerId: ns=74;i=6109
+      ReferenceType: HasProperty
+      Value: 4408652
+    - Name: DisplayName
+      Type: BaseVariableType
+      DataType: LocalizedText
+      OwnerId: ns=74;i=6109
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Description
+      Type: BaseVariableType
+      DataType: LocalizedText
+      OwnerId: ns=74;i=6109
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+  - Name: EURange
+    Id: ns=74;i=6106
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":50.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6106
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6106
+      ReferenceType: HasProperty
+      Value: 50.0
+- Name: ns=74;VariableWithInstrumentRange
+  Id: ns=74;s=Demo.CTT.DAProfile.AnalogType.VariableWithInstrumentRange
+  Type: AnalogItemType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"VariableWithInstrumentRange"}
+  ReferenceType: Organizes
+  Value: 0.0
+  Children:
+  - Name: EURange
+    Id: ns=74;i=6108
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"EURange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":50.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6108
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6108
+      ReferenceType: HasProperty
+      Value: 50.0
+  - Name: InstrumentRange
+    Id: ns=74;i=6110
+    Type: RangeType
+    DataType: EURange
+    DisplayName: {"LocaleId":"","Text":"InstrumentRange"}
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":50.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6110
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      OwnerId: ns=74;i=6110
+      ReferenceType: HasProperty
+      Value: 50.0

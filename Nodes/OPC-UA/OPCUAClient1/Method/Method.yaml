@@ -1,0 +1,74 @@
+Name: ns=74;Method
+Id: ns=74;s=Demo.Method
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"003_Method"}
+ReferenceType: Organizes
+Children:
+- Class: Method
+  Name: ns=74;DoSomethingAfter10s
+  Id: ns=74;s=Demo.Method.DoSomethingAfter10s
+  DisplayName: {"LocaleId":"","Text":"DoSomethingAfter10s"}
+- Class: Method
+  Name: ns=74;EnumTest
+  Id: ns=74;s=Demo.Method.EnumTest
+  DisplayName: {"LocaleId":"","Text":"EnumTest"}
+  Children:
+  - Name: ns=0;InputArguments
+    Id: ns=74;s=Demo.Method.EnumTest.InputArguments
+    Type: PropertyType
+    DataType: Argument
+    DisplayName: {"LocaleId":"","Text":"InputArguments"}
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [{"TypeId":{"Id":296},"Body":{"Name":"HeaterStatus","DataType":{"Id":3001,"Namespace":74},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"Priority","DataType":{"Id":3005,"Namespace":74},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Name: ns=0;OutputArguments
+    Id: ns=74;s=Demo.Method.EnumTest.OutputArguments
+    Type: PropertyType
+    DataType: Argument
+    DisplayName: {"LocaleId":"","Text":"OutputArguments"}
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [{"TypeId":{"Id":296},"Body":{"Name":"RetHeaterStatus","DataType":{"Id":3001,"Namespace":74},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"RetPriority","DataType":{"Id":3005,"Namespace":74},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+- Class: Method
+  Name: ns=74;Multiply
+  Id: ns=74;s=Demo.Method.Multiply
+  DisplayName: {"LocaleId":"","Text":"Multiply"}
+  Description: {"LocaleId":"","Text":"Returns the product of the two given numbers"}
+  Children:
+  - Name: ns=0;InputArguments
+    Id: ns=74;i=6176
+    Type: PropertyType
+    DataType: Argument
+    DisplayName: {"LocaleId":"","Text":"InputArguments"}
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [{"TypeId":{"Id":296},"Body":{"Name":"a","DataType":{"Id":11},"ValueRank":-1,"ArrayDimensions":[],"Description":{"LocaleId":"","Text":"parameter a"}}},{"TypeId":{"Id":296},"Body":{"Name":"b","DataType":{"Id":11},"ValueRank":-1,"ArrayDimensions":[],"Description":{"LocaleId":"","Text":"parameter b"}}}]
+  - Name: ns=0;OutputArguments
+    Id: ns=74;i=6177
+    Type: PropertyType
+    DataType: Argument
+    DisplayName: {"LocaleId":"","Text":"OutputArguments"}
+    ValueRank: OneDimension
+    ArrayDimensions: [1]
+    Value: [{"TypeId":{"Id":296},"Body":{"Name":"result","DataType":{"Id":11},"ValueRank":-1,"ArrayDimensions":[],"Description":{"LocaleId":"","Text":"result = a * b"}}}]
+- Class: Method
+  Name: ns=74;VectorAdd
+  Id: ns=74;s=Demo.Method.VectorAdd
+  DisplayName: {"LocaleId":"","Text":"VectorAdd"}
+  Children:
+  - Name: ns=0;InputArguments
+    Id: ns=74;i=6187
+    Type: PropertyType
+    DataType: Argument
+    DisplayName: {"LocaleId":"","Text":"InputArguments"}
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [{"TypeId":{"Id":296},"Body":{"Name":"v1","DataType":{"Id":3002,"Namespace":74},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"v2","DataType":{"Id":3002,"Namespace":74},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Name: ns=0;OutputArguments
+    Id: ns=74;i=6188
+    Type: PropertyType
+    DataType: Argument
+    DisplayName: {"LocaleId":"","Text":"OutputArguments"}
+    ValueRank: OneDimension
+    ArrayDimensions: [1]
+    Value: [{"TypeId":{"Id":296},"Body":{"Name":"result","DataType":{"Id":3002,"Namespace":74},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]

@@ -1,0 +1,13 @@
+Name: ns=74;CTT
+Id: ns=74;s=Demo.CTT
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"010_ComplianceTest"}
+Description: {"LocaleId":"","Text":"This folder contains variable for the OPC UA Compliance Test Tool."}
+ReferenceType: Organizes
+Children:
+- File: Methods/Methods.yaml
+- File: NodeClasses/NodeClasses.yaml
+- File: Paths/Paths.yaml
+- File: References/References.yaml
+- File: SecurityAccess/SecurityAccess.yaml
+- File: Static/Static.yaml

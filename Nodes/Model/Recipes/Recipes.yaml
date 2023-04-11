@@ -1,0 +1,56 @@
+Name: Recipes
+Id: g=d3b4a10b5eff7364d74782c172a65b8e
+Type: FolderType
+Children:
+- Name: BoilerLevelSetpoint
+  Id: g=cf5748509df58728db93be2a33b28bd3
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 100
+  Children:
+  - Name: ns=0;EURange
+    Type: RangeType
+    DataType: EURange
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 2.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 100.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
+- Name: BoilerTempSetpoint
+  Id: g=2d2c36fd6206438ab7cd4b59ef9d6941
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 90
+  Children:
+  - Name: ns=0;EURange
+    Type: RangeType
+    DataType: EURange
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 30.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 90.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true

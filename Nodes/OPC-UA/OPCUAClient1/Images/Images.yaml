@@ -1,0 +1,9 @@
+Name: ns=74;Images
+Id: ns=74;s=Demo.Images
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"013_Images"}
+Description: {"LocaleId":"","Text":"This folder contains variables with Image DataTypes"}
+ReferenceType: Organizes
+Children:
+- File: Dynamic/Dynamic.yaml
+- File: Static/Static.yaml

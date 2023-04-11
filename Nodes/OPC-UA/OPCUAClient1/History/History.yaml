@@ -1,0 +1,35 @@
+Name: ns=74;History
+Id: ns=74;s=Demo.History
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"002_History"}
+ReferenceType: Organizes
+Children:
+- Name: ns=74;ByteWithHistory
+  Id: ns=74;s=Demo.History.ByteWithHistory
+  Type: BaseDataVariableType
+  DataType: Byte
+  DisplayName: {"LocaleId":"","Text":"ByteWithHistory"}
+  ReferenceType: Organizes
+  Value: 81
+- Name: ns=74;DataLoggerActive
+  Id: ns=74;s=Demo.History.DataLoggerActive
+  Type: BaseDataVariableType
+  DataType: Boolean
+  DisplayName: {"LocaleId":"","Text":"DataLoggerActive"}
+  ReferenceType: Organizes
+  Value: false
+- Name: ns=74;DoubleWithHistory
+  Id: ns=74;s=Demo.History.DoubleWithHistory
+  Type: BaseDataVariableType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"DoubleWithHistory"}
+  ReferenceType: Organizes
+  Value: 1.9667159339575022
+- Class: Method
+  Name: ns=74;StartLogging
+  Id: ns=74;s=Demo.History.StartLogging
+  DisplayName: {"LocaleId":"","Text":"StartLogging"}
+- Class: Method
+  Name: ns=74;StopLogging
+  Id: ns=74;s=Demo.History.StopLogging
+  DisplayName: {"LocaleId":"","Text":"StopLogging"}

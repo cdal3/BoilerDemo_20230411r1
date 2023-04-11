@@ -1,0 +1,13 @@
+Name: ns=74;References
+Id: ns=74;s=Demo.CTT.References
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"References"}
+ReferenceType: Organizes
+Children:
+- File: Has3ForwardReferences1/Has3ForwardReferences1.yaml
+- File: Has3ForwardReferences2/Has3ForwardReferences2.yaml
+- File: Has3ForwardReferences3/Has3ForwardReferences3.yaml
+- File: Has3ForwardReferences4/Has3ForwardReferences4.yaml
+- File: Has3ForwardReferences5/Has3ForwardReferences5.yaml
+- File: HasInverseAndForwardReferences/HasInverseAndForwardReferences.yaml
+- File: HasReferencesWithDifferentParentTypes/HasReferencesWithDifferentParentTypes.yaml

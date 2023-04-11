@@ -1,0 +1,9 @@
+Name: ns=74;Static
+Id: ns=74;s=Demo.Static
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"000_Static"}
+ReferenceType: Organizes
+Children:
+- File: Arrays/Arrays.yaml
+- File: Matrix/Matrix.yaml
+- File: Scalar/Scalar.yaml

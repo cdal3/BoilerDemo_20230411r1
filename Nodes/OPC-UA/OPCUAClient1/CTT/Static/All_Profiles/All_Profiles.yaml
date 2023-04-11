@@ -1,0 +1,8 @@
+Name: ns=74;All_Profiles
+Id: ns=74;s=Demo.CTT.Static.AllProfiles
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"All Profiles"}
+ReferenceType: Organizes
+Children:
+- File: Arrays/Arrays.yaml
+- File: Scalar/Scalar.yaml

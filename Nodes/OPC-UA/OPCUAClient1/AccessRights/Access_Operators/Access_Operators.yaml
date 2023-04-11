@@ -1,0 +1,47 @@
+Name: ns=74;Access_Operators
+Id: ns=74;s=Demo.AccessRights.Access_Operators
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Access_Operators"}
+Description: {"LocaleId":"","Text":"Contains elements with full access to attributes for users of group Operators."}
+ReferenceType: Organizes
+Children:
+- Name: ns=74;All_RO_Operators_RW
+  Id: ns=74;s=Demo.AccessRights.Access_Operators.All_RO_Operators_RW
+  Type: BaseDataVariableType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"All_RO_Operators_RW"}
+  Description: {"LocaleId":"","Text":"Read and Write access to value attribute for members of Operators group. Read only access for other users."}
+  ReferenceType: Organizes
+  Value: 0.0
+- Name: ns=74;All_WO_Operators_RW
+  Id: ns=74;s=Demo.AccessRights.Access_Operators.All_WO_Operators_RW
+  Type: BaseDataVariableType
+  DataType: UInt32
+  DisplayName: {"LocaleId":"","Text":"All_WO_Operators_RW"}
+  Description: {"LocaleId":"","Text":"Read and Write access to value attribute for members of Operators group. Write only access for other users."}
+  ReferenceType: Organizes
+  Value: 0
+- Name: ns=74;Operators_RO
+  Id: ns=74;s=Demo.AccessRights.Access_Operators.Operators_RO
+  Type: BaseDataVariableType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"Operators_RO"}
+  Description: {"LocaleId":"","Text":"Read only access to value attribute for members of Operators group. No access to value attribute for other users."}
+  ReferenceType: Organizes
+  Value: 0.0
+- Name: ns=74;Operators_RW
+  Id: ns=74;s=Demo.AccessRights.Access_Operators.Operators_RW
+  Type: BaseDataVariableType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"Operators_RW"}
+  Description: {"LocaleId":"","Text":"Read and Write access to value attribute for members of Operators group. No access to value attribute for other users."}
+  ReferenceType: Organizes
+  Value: 0.0
+- Name: ns=74;Operators_WO
+  Id: ns=74;s=Demo.AccessRights.Access_Operators.Operators_WO
+  Type: BaseDataVariableType
+  DataType: Double
+  DisplayName: {"LocaleId":"","Text":"Operators_WO"}
+  Description: {"LocaleId":"","Text":"Write only access to value attribute for members of Operators group. No access to value attribute for other users."}
+  ReferenceType: Organizes
+  Value: 0.0
